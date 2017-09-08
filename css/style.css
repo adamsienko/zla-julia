@@ -1,0 +1,136 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+#header {
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 43px;
+    padding: 28px;
+    margin: 0;
+    font-weight: 800;
+}
+
+h1 span {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#books-top {
+    background-color: #858585;
+}
+
+.books-image {
+    max-width: 60%;
+    position: relative;
+    margin: auto;
+    padding-right: 8%;
+}
+
+.books-image img {
+    width: 100%;
+}
+
+.button {
+    position: absolute;
+    top: 39%;
+    right: 0;
+    max-width: 25%;
+}
+
+#faces img {
+    width: 100%;
+}
+
+#about-book {
+    background-color: #313131;
+}
+
+#about-book article {
+    width: 65%;
+    margin: auto;
+}
+
+#about-book p {
+    font-size: 24px;
+    padding-top: 45px;
+}
+
+#about-book p span {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 170px;
+    padding: 45px 0;
+}
+
+#blurbs {
+    background-color: #858585;
+    padding-top: 50px;
+}
+
+#blurbs p {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0 300px;
+}
+
+#blurbs footer {
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 35px;
+}
+
+#footer {
+    background-color: #1b1b1b;
+}
+
+#footer p {
+    font-size: 25px;
+    padding: 25px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #2bc5fa;
+    width: 65%;
+    margin: auto;
+}
+
+#footer .footer-main {
+    border-top: solid 2px;
+    border-color: #666;
+    margin: auto;
+    padding: 0;
+    width: 70%;
+}
+
+#footer .footer-main .row {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#footer .footer-main .footer-left {
+    font-size: 12px;
+    text-align: left;
+}
+
+#footer .footer-main .footer-left a {
+    color: #666;
+}
+
+#footer .footer-main .footer-right figure {
+    text-align: right;
+}
