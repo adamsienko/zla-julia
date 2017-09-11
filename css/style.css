@@ -14,8 +14,9 @@ body {
 h1 {
     font-size: 43px;
     padding: 28px;
-    margin: 0;
+    margin: auto;
     font-weight: 800;
+    width: 65%;
 }
 
 h1 span {
@@ -61,6 +62,7 @@ h1 span {
 #about-book p {
     font-size: 24px;
     padding-top: 45px;
+    width: 100%;
 }
 
 #about-book p span {
@@ -71,8 +73,9 @@ h1 span {
 h2 {
     font-size: 24px;
     font-weight: 800;
-    margin: 0 170px;
+    margin: auto;
     padding: 45px 0;
+    width: 65%;
 }
 
 #blurbs {
@@ -84,7 +87,8 @@ h2 {
     color: #000;
     font-size: 24px;
     font-weight: 500;
-    padding: 0 300px;
+    width: 65%;
+    margin: auto;
 }
 
 #blurbs footer {
@@ -107,6 +111,7 @@ h3 {
     color: #2bc5fa;
     width: 65%;
     margin: auto;
+    font-weight: 700;
 }
 
 #footer .footer-main {
@@ -131,6 +136,6 @@ h3 {
     color: #666;
 }
 
-#footer .footer-main .footer-right figure {
+#footer .footer-main .footer-right .logo {
     text-align: right;
 }

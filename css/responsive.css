@@ -1,0 +1,115 @@
+    @media all and (max-width: 992px) {}
+    
+    @media all and (min-width: 768px) {
+        .faces-small {
+            display: none;
+        }
+        .book-romeo,
+        .book-julia {
+            display: none;
+        }
+        #blurbs p span {
+            display: none;
+        }
+        .logo-small {
+            display: none;
+        }
+    }
+    
+    @media all and (max-width: 768px) {
+        #header {
+            background-color: #858585;
+        }
+        h1 {
+            font-size: 18px;
+            line-height: 26px;
+            width: 90%;
+        }
+        h1 span {
+            font-size: 14px;
+        }
+        .books-image {
+            max-width: 74%;
+        }
+        .books-image .two-books {
+            display: none;
+        }
+        .books-image .button {
+            max-width: 42%;
+            top: 42%;
+            right: 3%;
+        }
+        .books-image img {
+            padding-bottom: 80px;
+        }
+        #faces .faces-large {
+            display: none;
+        }
+        #about-book article {
+            width: 85%;
+        }
+        #about-book article p {
+            font-size: 14px;
+            text-align: left;
+        }
+        #about-book article p span {
+            font-size: 18px;
+        }
+        h2 {
+            width: 85%;
+            text-align: left;
+            font-size: 18px;
+        }
+        h2 span {
+            color: #2bc5fa;
+        }
+        #blurbs p {
+            font-size: 16px;
+            text-align: left;
+            width: 85%;
+            font-weight: 500;
+            padding-bottom: 25px;
+        }
+        #blurbs footer {
+            display: none;
+        }
+        #blurbs p span {
+            color: #fff;
+            font-weight: 700;
+            font-style: normal;
+        }
+        #books-bottom h1 {
+            color: #2bc5fa;
+        }
+        #books-bottom h1 span {
+            color: #fff;
+        }
+        #footer p {
+            font-size: 16px;
+        }
+        h3 {
+            18px;
+            width: 85%;
+        }
+        #footer .footer-main {
+            border: none;
+            width: 100%;
+        }
+        #footer .footer-main .row {
+            background-color: #000;
+            margin: 0;
+            padding: 25px 0 25px;
+        }
+        #footer .footer-main .footer-left a {
+            color: #fff;
+            float: right;
+            padding: 8px 50px 0 0;
+        }
+        #footer .footer-main .footer-right .logo {
+            display: none;
+        }
+        #footer .footer-main .footer-right .logo-small {
+            float: left;
+            padding-left: 50px;
+        }
+    }
